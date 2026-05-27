@@ -206,7 +206,7 @@ def kick_expired_users():
 # --- STARTUP ---
 if __name__ == '__main__':
     keep_alive()
-    scheduler = import os
+import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pymongo import MongoClient
